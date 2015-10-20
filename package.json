@@ -1,0 +1,33 @@
+{
+  "name": "wcjs-fail",
+  "version": "0.0.0",
+  "description": "::",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "maxogden/electron-packager",
+    "electron-prebuilt": "0.33.3"
+  },
+  "window": {
+    "width": 960,
+    "height": 600
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "wcjs-player": "0.5.2"
+  }
+}
